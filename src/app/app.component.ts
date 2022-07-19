@@ -40,13 +40,13 @@ export class AppComponent {
 
   if(!this.numberOfTeams || this.numberOfTeams<=0)
   {
-    this.errorMessage ='Invalid input';
+    this.errorMessage ='Invalid input!';
     return;
   }
 
   if(this.numberOfTeams>this.members.length)
   {
-    this.errorMessage ='Not enough members';
+    this.errorMessage ='Not enough members!';
   }
 
   this.errorMessage ='';
