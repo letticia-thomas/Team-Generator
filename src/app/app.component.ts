@@ -27,7 +27,7 @@ export class AppComponent {
  {
   if(!this.newMembername)
   {
-    this.errorMessage ='Name cannot be empty';
+    this.errorMessage ='Name cannot be empty!';
     return;
   }
   this.errorMessage =''
